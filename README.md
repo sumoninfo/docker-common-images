@@ -49,7 +49,7 @@ docker network create gp-shared-net
 ## 🚀 Starting the Services
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ---
@@ -67,13 +67,13 @@ docker-compose up -d
 ## 🧹 Stopping and Cleanup
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 To remove volumes and unused networks:
 
 ```bash
-docker-compose down -v --remove-orphans
+docker compose down -v --remove-orphans
 ```
 
 ---
