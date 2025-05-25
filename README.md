@@ -56,11 +56,11 @@ docker compose up -d
 
 ## 🔎 Access Services
 
-| Service     | URL                          |
-|-------------|-------------------------------|
-| MySQL       | `localhost:3309`             |
-| Redis       | `localhost:6380`             |
-| phpMyAdmin  | [http://localhost:8081](http://localhost:8081) |
+| Service     | URL                          | Username | Password |
+|-------------|-------------------------------|----------|----------|
+| MySQL       | `localhost:3309`             | root     | root     |
+| Redis       | `localhost:6380`             | -        | -        |
+| phpMyAdmin  | [http://localhost:8081](http://localhost:8081) | root     | root     |
 
 ---
 
